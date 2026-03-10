@@ -38,7 +38,7 @@ const HeroStats = () => {
           </div>
           <div className="bg-slate-900 p-3 rounded border border-slate-700">
             <p className="text-slate-500 mb-1 tracking-widest uppercase">Availability</p>
-            <p className="text-green-400 font-bold underline decoration-2">IMMEDIATE JOINER</p>
+            <p className="text-green-400 font-bold underline decoration-2">ACTIVELY LOOKING</p>
           </div>
         </div>
       </motion.div>

@@ -31,7 +31,7 @@ const ContactTerminal = () => {
     setMessage('ENCRYPTING & SENDING TRANSMISSION...');
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/contacts/', {
+      const response = await fetch('https://portfolio-backend-5zvg.onrender.com/api/contacts/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -49,8 +49,8 @@ A retro-future terminal portfolio that bridges a modern React frontend with a ro
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/priyanshi4325/portfolio.git
+cd portfolio
 ```
 
 ---

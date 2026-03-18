@@ -17,6 +17,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5175",
     "http://127.0.0.1:5175",
     "https://priyanshi-dass.netlify.app",
+    "https://portfolio-etb59hc5y-priyanshi4325s-projects.vercel.app/",
 ]
 
 CORS_ALLOW_HEADERS = ["*"]

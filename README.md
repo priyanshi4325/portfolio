@@ -6,7 +6,7 @@ A retro-future terminal portfolio that bridges a modern React frontend with a ro
 
 ## 🔗 Live System
 
-* **Live Demo (UI):** https://priyanshi-dass.netlify.app  
+* **Live Demo (UI):** https://priyanshi-dass.netlify.app  / https://portfolio-etb59hc5y-priyanshi4325s-projects.vercel.app/
 * **Backend API:** https://portfolio-backend-5zvg.onrender.com  
 * **Database:** Neon PostgreSQL
 

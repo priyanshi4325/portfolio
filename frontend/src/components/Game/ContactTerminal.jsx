@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const ContactTerminal = () => {
   const [terminalState, setTerminalState] = useState('COMMAND'); // COMMAND, FORM, SUCCESS
   const [input, setInput] = useState('');
-  const [message, setMessage] = useState('TYPE "CONTACT" FOR DATA OR "MESSAGE" TO START UPLINK...');
+  const [message, setMessage] = useState('TYPE "CONTACT" FOR DATA OR "RESUME" to START RESUME DOWNLOAD OR "MESSAGE" TO START UPLINK...');
   
   // Form State
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -20,7 +20,21 @@ const ContactTerminal = () => {
       setMessage('INITIALIZING SECURE UPLINK... PROVIDE MISSION DETAILS.');
     } else if (cmd === 'clear') {
       setMessage('TERMINAL RESET.');
-    } else {
+    
+    } 
+    else if (cmd === 'resume' || cmd === 'download resume') {
+  setMessage('INITIATING RESUME DOWNLOAD...');
+  
+  setTimeout(() => {
+    const link = document.createElement("a");
+    link.href = "/Priyanshi_Dass_Full_Stack_developer.pdf";
+    link.download = "Priyanshi_Dass_Full_Stack_developer.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, 800);
+}
+    else {
       setMessage(`COMMAND "${cmd}" NOT RECOGNIZED. TRY "CONTACT" OR "MESSAGE"`);
     }
     setInput('');
@@ -55,7 +69,7 @@ const ContactTerminal = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-4 mt-20 pb-32 font-mono">
+    <section className="max-w-4xl mx-auto px-4 mt-20 pb-32 font-mono scroll-mt-24" id='contact'>
       <div className="bg-slate-950 border-2 border-slate-700 rounded-lg p-6 shadow-[0_0_30px_rgba(0,0,0,0.5)] relative overflow-hidden">
         
         {/* Terminal Header */}

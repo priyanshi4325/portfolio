@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 const HeroStats = () => {
   return (
+    <section id='profile' className='scroll-mt-24'>
     <div className="pt-24 md:pt-32 pb-12 bg-transparent flex flex-col items-center px-4">
       
       {/* Game Window Container */}
@@ -43,6 +44,7 @@ const HeroStats = () => {
         </div>
       </motion.div>
     </div>
+    </section>
   );
 };
 

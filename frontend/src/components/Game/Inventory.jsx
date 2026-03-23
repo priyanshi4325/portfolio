@@ -21,7 +21,7 @@ const Inventory = () => {
   };
 
   return (
-    <section className="mt-20 max-w-5xl mx-auto px-4">
+    <section className="mt-20 max-w-5xl mx-auto px-4 scroll-mt-24" id='inventory'>
       <h2 className="text-2xl font-mono font-bold text-cyan-400 mb-8 flex items-center gap-4">
         <span className="h-px flex-1 bg-cyan-500/30"></span>
         INVENTORY_GEAR

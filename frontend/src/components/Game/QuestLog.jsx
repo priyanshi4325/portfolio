@@ -52,7 +52,7 @@ const QuestLog = () => {
     ];
 
     return (
-        <section className="mt-20 max-w-4xl mx-auto px-4 pb-20">
+        <section className="mt-20 max-w-4xl mx-auto px-4 pb-20 scroll-mt-24" id='quests'>
             <h2 className="text-2xl font-mono font-bold text-yellow-500 mb-8 uppercase tracking-[0.2em]">Active_Quest_Log</h2>
 
             <div className="space-y-8">

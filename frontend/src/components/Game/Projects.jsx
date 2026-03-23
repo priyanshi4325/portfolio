@@ -8,7 +8,7 @@ const Projects = () => {
             title: "TechnoCrops Website",
             tech: ["React", "Django", "PostgreSQL", "Stripe"],
             description: "A modern full-stack company website featuring responsive UI, smooth scroll animations, and a Django-powered contact system.",
-            link: "https://technocorps-company.netlify.app/",
+            link: "https://technocorps.com/",
             difficulty: "Hard"
         },
         {
@@ -21,16 +21,16 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: "React Shopping Cart",
-            tech: ["React", "Context API", "JavaScript", "Tailwind CSS"],
-            description: "Developed an e-commerce shopping cart with real-time cart updates, quantity controls, and centralized state management using React Context API.",
-            link: "https://priyanshi4325.github.io/shopping-website/",
+            title: "AI Resume Chatbot",
+            tech: ["React", "Fast API", "Open AI Embeddings"],
+            description: "An AI-powered chatbot that lets the user upload any resume (PDF) and ask questions about it in natural language.",
+            link: "https://ai-resume-chat.vercel.app/",
             difficulty: "Medium"
         }
     ];
 
     return (
-        <section className="mt-20 max-w-6xl mx-auto px-4">
+        <section className="mt-20 max-w-6xl mx-auto px-4 scroll-mt-24" id='projects'>
             <h2 className="text-2xl font-mono font-bold text-purple-500 mb-8 flex items-center gap-4">
                 <span className="h-px flex-1 bg-purple-500/30"></span>
                 SELECT_PROJECTS
